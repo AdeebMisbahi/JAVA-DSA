@@ -3,8 +3,7 @@ import java.util.Queue;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.Scanner;
-public class Solution {
-    
+public class Solution{
 	  public static void printHelper(int edges[][], int sv,boolean visited[]){
         Queue<Integer> q = new LinkedList<>();
         q.add(sv);
